@@ -9,6 +9,6 @@ public class CalculadoraTest {
 //Este teste ira validar o o calculo do metodo Calculadora.Arranjo e analisar o valor esperado.
 	@Test
 	public void calcArranjo() {
-		assertEquals(3, calc.arranjo(4,2));
+		assertEquals(210, calc.arranjo(7,3));
 	}
 }
