@@ -2,27 +2,31 @@ package pratica_01;
 
 public class Calculadora {
 
-	public static void main(String[] args) {}
+	public static void main(String[] args) {
+		arranjo (7,3);
+	}
 
 //Este metodo ira realizar o calculo do arranjo.
-		public int arranjo (int n, int p) {
-			int fatN = 1;
-	        for (int i = 1; i <= n; i = i + 1) {
-	            fatN = fatN * i;
-	        }
-			int fatP = 1;
-	        for (int i = 1; i <= p; i = i + 1) {
-	            fatP = fatP * i;
-	        }
-	        int fatNP = 1;
-	        for (int i = 1; i <= (n-p); i = i + 1) {
-	        	fatNP = fatNP * i;
-	        }
-	        
-	        int arranjo = fatN/fatNP;
-	        System.out.println(fatN);
-	        System.out.println(fatNP);
-	        return arranjo;
+		public static int fatorialN(int n) {
+			int resultadoN = 1;
+			while( n > 0) {
+				resultadoN = resultadoN * n;
+				n--;
+			}
+			return resultadoN;
+			}
+		public static int fatorialNP(int n ,int p) {
+			int resultadoNP = 1;
+			int np = (n-p);
+			while( np > 0) {
+				resultadoNP = resultadoNP * np;
+				np--;
+			}
+			return resultadoNP;
+			}
+		
+		public static int arranjo (int n, int p ) {
+			return fatorialN(n)/fatorialNP(n,p);
 	      
 		}
         
