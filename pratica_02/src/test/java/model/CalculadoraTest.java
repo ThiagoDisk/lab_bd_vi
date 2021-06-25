@@ -20,7 +20,7 @@ public class CalculadoraTest {
         assertEquals(1,resultado);
     }
 
-    //VALOR MAIS PERTO DE 5
+    //VALOR MAIS PERTO DE 6
     //CT: <5,120>
     @Test
     public void testeArranjoPertoCinco() {
