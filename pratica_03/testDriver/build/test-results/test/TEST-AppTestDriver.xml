@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTestDriver" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-25T21:17:48" hostname="MacBook-Air-de-Giovanna.local" time="39.674">
+  <properties/>
+  <testcase name="testeArranjo()" classname="AppTestDriver" time="39.674"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 42853
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun. 25, 2021 6:17:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 11411
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun. 25, 2021 6:18:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 41075
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun. 25, 2021 6:18:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>
