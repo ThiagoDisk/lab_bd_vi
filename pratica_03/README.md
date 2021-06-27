@@ -10,4 +10,4 @@ Para rodar os testes: gradle test
 - CT3: <0, 0>
 
 Link do vídeo de apresentação:
-- 
+- https://youtu.be/MaRiXVLaka8
