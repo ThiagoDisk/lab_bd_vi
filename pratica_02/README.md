@@ -7,4 +7,4 @@ CT2: <5, 120>
 Partição 2 - Valores Nulos
 CT3: <0, 0>
 
-Link do vídeo de apresentação:
+Link do vídeo de apresentação: https://youtu.be/QMgA9-GZRwc
